@@ -8,11 +8,11 @@
         setTimeout(() => {
             loading = false;
             document.getElementById('loader').classList.replace('animate-bounce', 'reverseBlurTransition')
-        }, 2000)
+        }, 1000)
         setTimeout(() => {
             showPage = true
-            document.getElementById('main').classList.replace('blur-xl', 'blurTransition')
-        }, 2500)
+            document.getElementById('main').classList.replace('blur', 'blurTransition')
+        }, 1500)
     })
 </script>
 
@@ -22,7 +22,7 @@
             <img id="loader" src="/bellus.min.png" class="w-16 animate-bounce" alt="Loading"/>
         {/if}
     </div>
-    <main id="main" class="w-full flex flex-grow min-h-screen mx-auto my-auto max-w-6xl xl:px-12 xl:py-6 blur-xl">
+    <main id="main" class="w-full flex flex-grow min-h-screen mx-auto my-auto max-w-6xl xl:px-12 xl:py-6 blur">
         <slot />
     </main>
 </div>
