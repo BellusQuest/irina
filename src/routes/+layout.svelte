@@ -14,6 +14,9 @@
             const main = document.getElementById('main')
             main.classList.replace('hidden', 'flex')
             main.classList.replace('md:blur', 'blurTransition')
+
+            // HIDE THE EVIDENCE... okay kidding, this is a possible fix to mobile lag
+            setTimeout(() => main.classList.remove('blurTransition'), 850)
         }, 1500)
     })
 </script>
