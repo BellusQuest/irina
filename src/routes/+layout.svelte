@@ -26,7 +26,7 @@
             <img id="loader" src="/bellus.min.png" class="w-16 animate-bounce" alt="Loading"/>
         </div>
     {/if}
-    <main id="main" class="w-full flex-grow min-h-screen m-auto max-w-6xl xl:px-12 xl:py-6 hidden md:flex md:blur">
+    <main id="main" class="w-full md:min-h-screen md:m-auto max-w-6xl xl:px-12 xl:py-6 hidden md:flex md:blur">
         <slot />
     </main>
 </div>

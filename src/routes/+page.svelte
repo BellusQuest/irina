@@ -2,7 +2,7 @@
     import Showcase from "$lib/components/Showcase.svelte";
 </script>
 
-<div class="flex flex-col w-full my-auto">
+<div class="flex flex-col w-full md:my-auto">
     <div class="animate-fade-in-up">
         <Showcase>
             <div class="flex flex-row justify-between items-center">
