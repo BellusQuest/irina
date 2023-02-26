@@ -7,16 +7,18 @@
     onMount(() => {
         setTimeout(() => {
             loading = false;
-            document.getElementById('loader').classList.replace('animate-bounce', 'animate-fade-out-down md:animate-reverse-blur-transition')
+            const loader = document.getElementById('loader')
+            loader.classList.remove('animate-bounce')
+            loader.classList.add('animate-fade-out-down','animate-reverse-blur-transition')
         }, 1000)
         setTimeout(() => {
             showPage = true
             const main = document.getElementById('main')
             main.classList.replace('hidden', 'flex')
-            main.classList.replace('md:blur', 'md:blur-transition')
+            main.classList.replace('blur', 'blur-transition')
 
             // HIDE THE EVIDENCE... okay kidding, this is a possible fix to mobile lag
-            setTimeout(() => main.classList.remove('blurTransition'), 850)
+            setTimeout(() => main.classList.remove('blur-transition'), 850)
         }, 1500)
     })
 </script>
@@ -26,7 +28,7 @@
             <img id="loader" src="/bellus.min.png" class="w-16 animate-bounce" alt="Loading"/>
         </div>
     {/if}
-    <main id="main" class="w-full md:min-h-screen md:m-auto max-w-6xl xl:px-12 xl:py-6 hidden md:flex md:blur">
+    <main id="main" class="w-full md:min-h-screen md:m-auto max-w-6xl xl:px-12 xl:py-6 hidden md:flex blur">
         <slot />
     </main>
 </div>
