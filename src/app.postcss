@@ -7,80 +7,22 @@
     .home--invite {
         @apply p-4 border-b border-transparent backdrop-blur-sm hover:border-blue-500 duration-700 transition;
     }
+
     .tinted {
         @apply bg-zinc-800/50 hover:bg-zinc-800/75 backdrop-blur rounded-xl duration-700 transition border border-white/20 hover:border-white/75;
     }
+
     .tinted > .background {
         @apply h-full p-5 rounded;
     }
+
     .tinted > .background > .heading {
         @apply uppercase text-xl font-bold;
     }
+
     .tinted > .background > .paragraph {
         @apply flex flex-col gap-2 text-sm font-light;
     }
-}
-
-@keyframes fadeInUp {
-    from {
-        transform: translate3d(0,20px,0);
-        opacity: 0;
-    }
-    to {
-        transform: translate3d(0,0,0);
-        opacity: 1;
-    }
-}
-
-@keyframes blurTransition {
-    from {
-        filter: blur(8px);
-        opacity: 0;
-    }
-    to {
-        filter: blur(0px);
-        opacity: 1;
-    }
-}
-
-@keyframes reverseBlurTransition {
-    from {
-        filter: blur(0px);
-        opacity: 1;
-    }
-    to {
-        filter: blur(8px);
-        opacity: 0;
-    }
-}
-
-
-.blurTransition {
-    -webkit-backface-visibility: hidden;
-    -webkit-perspective: 1000;
-    -webkit-transform: translate3d(0,0,0);
-    -webkit-transform: translateZ(0);
-    backface-visibility: hidden;
-    perspective: 1000;
-    transform: translate3d(0,0,0);
-    transform: translateZ(0);
-    animation: blurTransition 750ms ease-in-out;
-}
-
-.reverseBlurTransition {
-    -webkit-backface-visibility: hidden;
-    -webkit-perspective: 1000;
-    -webkit-transform: translate3d(0,0,0);
-    -webkit-transform: translateZ(0);
-    backface-visibility: hidden;
-    perspective: 1000;
-    transform: translate3d(0,0,0);
-    transform: translateZ(0);
-    animation: reverseBlurTransition 1000ms ease-in-out;
-}
-
-.fadeInUp {
-    animation: fadeInUp 1s ease-in-out;
 }
 
 .tinted > .background {

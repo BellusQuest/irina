@@ -7,13 +7,13 @@
     onMount(() => {
         setTimeout(() => {
             loading = false;
-            document.getElementById('loader').classList.replace('animate-bounce', 'reverseBlurTransition')
+            document.getElementById('loader').classList.replace('animate-bounce', 'animate-fade-out-down md:animate-reverse-blur-transition')
         }, 1000)
         setTimeout(() => {
             showPage = true
             const main = document.getElementById('main')
             main.classList.replace('hidden', 'flex')
-            main.classList.replace('md:blur', 'blurTransition')
+            main.classList.replace('md:blur', 'md:blur-transition')
 
             // HIDE THE EVIDENCE... okay kidding, this is a possible fix to mobile lag
             setTimeout(() => main.classList.remove('blurTransition'), 850)

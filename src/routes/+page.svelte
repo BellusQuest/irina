@@ -3,7 +3,7 @@
 </script>
 
 <div class="flex flex-col w-full my-auto">
-    <div class="fadeInUp">
+    <div class="animate-fade-in-up">
         <Showcase>
             <div class="flex flex-row justify-between items-center">
                 <div class="flex flex-row items-center gap-4">
@@ -13,7 +13,7 @@
             </div>
         </Showcase>
     </div>
-    <div class="pt-6 fadeInUp select-none">
+    <div class="pt-6 animate-fade-in-up select-none">
         <Showcase small={false}>
             <div class="flex flex-col gap-1 py-4">
                 <h2 class="text-4xl font-bold md:text-6xl sofia drop-shadow-2xl">Dimension Raid</h2>
@@ -34,7 +34,7 @@
             </div>
         </Showcase>
     </div>
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-2 pt-6 fadeInUp select-none">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-2 pt-6 animate-fade-in-up select-none">
         <Showcase title="Guide" href="https://path.bellus.quest" slime="sprites/foresia/sprite_0.png">
             <p>
                 Are you in need of a guide, click here to check out the official web guide, Echidna's Path.
@@ -47,7 +47,7 @@
             </p>
         </Showcase>
     </div>
-    <div class="text-xs font-light text-zinc-400 pt-6 fadeInUp select-none">
+    <div class="text-xs font-light text-zinc-400 pt-6 animate-fade-in-up select-none">
         <p>
             bellus is a personal project by <a href="https://mihou.pw" rel="noreferrer" target="_blank" class="text-white">shindou mihou</a>.
             it is not related to any organizations, whatsoever.
