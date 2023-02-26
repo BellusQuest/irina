@@ -52,6 +52,6 @@
             bellus is a personal project by <a href="https://mihou.pw" rel="noreferrer" target="_blank" class="text-white">shindou mihou</a>.
             it is not related to any organizations, whatsoever.
         </p>
-        <p>all artwork in the bot and this website are either commercially-licensed or peronsally made.</p>
+        <p>all artwork in the bot and this website are either commercially-licensed or personally made.</p>
     </div>
 </div>
