@@ -34,7 +34,7 @@
             </div>
         </Showcase>
     </div>
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-2 pt-6 animate-fade-in-up select-none">
+    <div class="flex flex-row flex-wrap md:grid md:grid-cols-2 gap-2 pt-6 animate-fade-in-up select-none">
         <Showcase title="Guide" href="https://path.bellus.quest" slime="sprites/foresia/sprite_0.png">
             <p>
                 Are you in need of a guide, click here to check out the official web guide, Echidna's Path.
