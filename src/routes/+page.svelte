@@ -8,7 +8,7 @@
             <div class="flex flex-row justify-between items-center">
                 <div class="flex flex-row items-center gap-4">
                     <img src="/bellus.min.png" class="w-6" alt="Bellus"/>
-                    <h1 class="playfair lowercase text-lg drop-shadow">Bellus</h1>
+                    <h1 class="playfair lowercase text-lg">Bellus</h1>
                 </div>
             </div>
         </Showcase>
@@ -16,7 +16,7 @@
     <div class="pt-6 animate-fade-in-up select-none">
         <Showcase small={false}>
             <div class="flex flex-col gap-1 py-4">
-                <h2 class="text-4xl font-bold md:text-6xl sofia drop-shadow-2xl">Dimension Raid</h2>
+                <h2 class="text-4xl font-bold md:text-6xl sofia">Dimension Raid</h2>
                 <div class="text-lg max-w-2xl font-light flex flex-col gap-4 py-2">
                     <p>
                         Create a dimension and join others in the race to leading the number one dimension in Discord.

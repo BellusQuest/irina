@@ -3,7 +3,7 @@
     export let href: string | undefined;
     export let slime: string | undefined;
 
-    let classes = "tinted min-w-full shadow shadow-md shadow-bg-white/10"
+    let classes = "tinted min-w-full"
 </script>
 <style>
 </style>
